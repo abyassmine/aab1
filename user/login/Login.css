@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.login-background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.login-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 54, 85, 0.3);
+  z-index: -1;
+}
+
+.login-content {
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+  border-radius: 2px;
+  width: 500px;
+  height: 410px;
+  display: inline-block;
+  margin-top: 30px;
+  vertical-align: middle;
+  position: relative;
+  padding: 35px;
+  background-color: rgba(19, 23, 33, 0.8);
+}
+
+.logo1 {
+  display: block;
+  margin: 0 auto 5px;
+  width: 200px;
+}
+
+.login-title {
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: rgba(128, 128, 128, 0.65);
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.login-title:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.65);
+}
+
+.form-item input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-item input::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.form-item input:focus {
+  outline: none;
+}
+
+.btn-primary {
+  background-color: rgba(244, 19, 19, 0.8);
+  color: white;
+  margin-left: 170px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90px;
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.signup-link {
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
