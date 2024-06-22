@@ -1,0 +1,15 @@
+.container45 {
+  
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 1;
+    padding-top: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
