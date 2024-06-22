@@ -1,0 +1,565 @@
+.dark-mode {
+    color: rgb(253, 0, 0); /* Set the desired color for dark mode */
+  }
+  .MuiTableCell-body {
+    color: #8d8b8b;
+    font-size: 1rem;
+}
+.red-text {
+  color: red;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;  /* Adjust as needed */
+}
+.manager-page {
+  
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 1;
+  padding-top: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manager-page:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 67%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo-container {
+  position: absolute;
+  top: 30%; /* Adjust the value to move the logo up or down */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+}
+
+.manager-page .manager-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+}
+
+.manager-page .manager-header .title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.p1 {
+  color: #acacac;
+}
+
+.black-box {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 147%;
+  background-color: rgb(0, 0, 0);
+}
+
+.switch-icon1 {
+  position: absolute;
+  top: -190px;
+  left: 790px;
+}
+
+.switch-icon2 {
+  position: absolute;
+  top: -170px;
+  right: 830px;
+}
+.black-box1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px; /* Adjust the height as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency by modifying the alpha value (0.5 = 50% transparent) */
+  z-index: 999; /* Ensure the black box stays on top of other elements */
+  
+}
+.box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: black; /* Initial color */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.logo-bgg {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  padding: 10px; /* Add padding if needed */
+  width: 100px; /* Adjust the width to your desired size */
+  height: 50px; /* Adjust the height to your desired size */
+}
+/* App.css */
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-start; /* Align links at the top */
+  margin-left: 900px; /* Move links a little bit to the left */
+  margin-top: -55px;
+
+}
+
+.nav-links li {
+  margin-right: 70px;
+}
+
+.nav-links a {
+  color: #acacac;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+  font-size: 20px; 
+ 
+}
+
+.nav-links a:focus,
+.nav-links a:hover {
+  color: purple;
+}
+
+.nav-links a:focus {
+  outline: none;
+}
+.textlink {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: #190301;
+  font-weight: 600;
+  text-transform: uppercase;
+ font-size: 20px;
+ text-decoration: none;
+
+ }
+
+.textlink:hover {
+  color: purple;
+}
+
+
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-7 {
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.manager-page .manager-header1 {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+}
+.circle1 {
+  background-color: #011827;
+  clip-path: circle(50%);
+  height: 6em;
+  width: 6em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+
+.circle2 {
+  background-color: #2f011d;
+  clip-path: circle(50%);
+  height: 6em;
+  width: 6em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+
+.circle3 {
+  background-color: #150b40;
+  clip-path: circle(50%);
+  height: 6em;
+  width: 6em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+
+
+
+.contentcard {
+  display: flex;
+  margin-left: 10px;
+  z-index: 2;
+ margin-top: 650px; 
+ 
+ }
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
+  height: 250px;
+  background-color: transparent;
+  margin: 10px;
+  margin-right: 70px; /* Added margin-right to create space between cards */
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove margin-right from the last card to prevent extra spacing */
+}
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 270px;
+}
+
+.card:hover .info {
+  height: 90%;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.line {
+  width: 50%;
+  height: 1px;
+ margin-left: 450px;
+  background-color: #acacac;
+  margin-top: 400px;
+  position: absolute;
+ 
+}
+
+h11 {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 50px;
+ top: 150px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h11 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+  
+}
+h11 em {
+  font-style: normal;
+  font-weight: 600;
+
+}
+
+
+/* === HEADING STYLE #2 === */
+.two h11 {
+  text-transform: capitalize;
+}
+.two h11:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  height: 2px;
+  content: "";
+  top: 50px;
+  background-color: #c50000;
+}
+
+.two h11 span {
+  font-size: 13px;
+  font-weight: 500;
+ margin-top: 50px;
+  text-transform: normal;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: #acacac;
+  padding-bottom: 20px;
+}
+.alt-two h11 {
+  text-align:center;
+}
+.alt-two h11:before {
+  left:28%; margin-left:-30px;
+}
+
+.circle4 {
+  background-color: #011827;
+  clip-path: circle(50%);
+  height: 15em;
+  width: 15em;
+ 
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+.circle5 {
+  background-color: #190301;
+  clip-path: circle(50%);
+  height: 15em;
+  width: 15em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+.circle6 {
+  background-color: #150b40;
+  clip-path: circle(50%);
+  height: 15em;
+  width: 15em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+.circle7 {
+  background-color: #2f011d;
+  clip-path: circle(50%);
+  height: 15em;
+  width: 15em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+}
+.k1{
+  color: #059dff;
+  font-size: 60px;
+}
+.k2{
+  color: #fb5343;
+  font-size: 60px;
+}
+
+.k3{
+  color: #6549d5;
+  font-size: 60px;
+}
+
+.k4{
+  color: #e33fa1;
+  font-size: 60px;
+}
+.circle-container {
+  display: flex;
+  margin-top: 1000px;
+  margin-left: 300px;
+  
+}
+
+
+
+
+.circle-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px; 
+  border-radius: 50%;
+ 
+  
+}
+
+
+
+.circle-container > div > h1 {
+  margin: 0;
+  font-size: 24px;
+ 
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.k1, .k2, .k3, .k4 {
+  margin: 0;
+  padding: 0;
+}
+
+.textserv{
+
+  margin-top: 50px;
+  margin-right: 1150px;
+  color: white;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.textserv1{
+  
+  margin-top: -50px;
+  margin-right: 400px;
+  color: white;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 20px;
+}
+.textserv2{
+  color: white;
+  font-weight: 600;
+text-transform: uppercase;
+font-size: 20px;
+margin-top: -50px;
+margin-right: -300px;
+}
+.textserv3{
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: -50px;
+  margin-right: -1000px;
+}
+.pp {
+  margin-top: 50px;
+  margin-right: 900px;
+}
+.pp1{
+  margin-top: -10px;
+}
+.container47 {
+ 
+ 
+}
+/* Add this to your CSS file or style tag */
+.hidden-row {
+  display: none;
+}

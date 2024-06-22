@@ -1,0 +1,90 @@
+
+
+.form {
+  background-color: #D2E0FB;
+  max-width: 800px;
+  max-height: 900px;
+ top: 100px;
+ height: 620px;
+ height: 620px;
+
+ position: center;
+}
+
+/* Rest of the CSS code */
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #181717;
+  color: white;
+  width: 50%;
+  display: block;
+  margin-left: 360px;
+}
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #181717;
+  color: white;
+  width: 50%;
+  display: block;
+  margin-left: 360px;
+}
+.form textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #181717;
+  color: white;
+  width: 270px;
+  height: 100px;
+  width: 50%;
+  display: block;
+  margin-left: 360px;
+}
+.vl {
+  border-left: 2px solid rgb(155, 155, 155);
+  height: 350px;
+  margin-top: 110px;
+ margin-left: 330px;
+ position: absolute;
+}
+
+.title22{
+  margin-top: 10px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: #011827;
+color: #059dff;
+width: 30%;
+margin-top: 40px;
+
+}
+.cancel-link{
+  color: red;
+  margin-left: 360px;
+ margin-top: -570px;
+  font-size: 20px;
+}
+
+
+
+.circle11{
+  background-color: #011827;
+  clip-path: circle(50%);
+  height: 15em;
+  width: 15em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-left: 50px;
+  display: flex;
+}
+.MuiTableCell-body {
+
+  font-size: 1rem;
+}
